@@ -12,6 +12,31 @@ The AWX Project Frequently Asked Questions can be found [here](https://www.ansib
 
 The AWX logos and branding assets are covered by [our trademark guidelines](https://github.com/ansible/awx-logos/blob/master/TRADEMARKS.md).
 
+
+tested By Dhana in Gloud CentOS 7.
+1. create centOS VM.
+2. sudo yum install ansible
+3. sudo yum install node
+4. sudo yum install docker-compose
+5. sudo systemctl start docker
+6. docker run -it hello-world
+7. git clone https://github.com/ansible/awx.git
+8. ls
+9.  cd awx/
+10  ls -l
+11  cd installer/
+12  ls -l
+13  ls -ltr
+14  vi inventory 
+    then update postgres_data_dir=/etc/pgdocker to /etc/pgdocker.
+     also update docker_compose_dir=/etc/awxcompose to /etc/awxcompose
+ 15. sudo yum install python-pip
+ 16. pip install docker
+ 17. pip install docker-compose
+ 18. ansible-playbook -i inventory install.yml -vv
+ 19. http:localhost or IP
+ 20. login ad admin password as password.
+
 Contributing
 ------------
 
