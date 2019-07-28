@@ -35,7 +35,7 @@ tested By Dhana in Gloud CentOS 7.
  17. pip install docker-compose
  18. ansible-playbook -i inventory install.yml -vv
  19. http:localhost or IP
- 20. login ad admin password as password.
+ 20. login user is admin password si password.
 
 Contributing
 ------------
