@@ -23,11 +23,11 @@ tested By Dhana in Gloud CentOS 7.
 7. git clone https://github.com/ansible/awx.git
 8. ls
 9.  cd awx/
-10  ls -l
-11  cd installer/
-12  ls -l
-13  ls -ltr
-14  vi inventory 
+10.  ls -l
+11.  cd installer/
+12.  ls -l
+13.  ls -ltr
+14.  vi inventory 
     then update postgres_data_dir=/etc/pgdocker to /etc/pgdocker.
      also update docker_compose_dir=/etc/awxcompose to /etc/awxcompose
  15. sudo yum install python-pip
