@@ -37,6 +37,8 @@ tested By Dhana in Gloud CentOS 7.
  19. http:localhost or IP
  20. login user is admin password si password.
 
+ systemctl restart docker -to restart awx.
+
 Contributing
 ------------
 
